@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 """wiki URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
+=======
+"""myproject URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/2.2/topics/http/urls/
+>>>>>>> 323cbed56534f37580f2db0e532a9b7ac9b5db10
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -14,9 +21,16 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+<<<<<<< HEAD
 from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("encyclopedia.urls"))
+=======
+from django.urls import path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+>>>>>>> 323cbed56534f37580f2db0e532a9b7ac9b5db10
 ]
